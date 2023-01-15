@@ -442,6 +442,9 @@ div.learn-more {
   text-transform: capitalize;
   text-align: center;
   margin: auto;
+  display: inline-block;
+  line-height: 20px;
+  padding: 10px;
 }
 div.questions {
  

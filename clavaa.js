@@ -59,7 +59,7 @@ function faqsClick(clickTab, opendTab, clickedI) {
 for(let i = 0; i < 10; i++) {
     let clickedName = `#questions-${i} h6`
     let openedName =  `#questions-${i} p`
-    let openedI = document.querySelector(`${clickedName} i`)
+    let openedI = document.querySelector( `#questions-${i} i`)
     let clicked = document.querySelector(clickedName)
     let opened = document.querySelector(openedName)
     faqsClick(clicked, opened, openedI)

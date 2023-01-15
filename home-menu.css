@@ -1,0 +1,77 @@
+ body {
+    margin: 0;
+ }
+ div#main-page {
+    margin: 0px;
+    padding: 0;
+    background-color: #191D41;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 110vh;
+    
+ }
+ a {
+    text-decoration: none;
+ }
+ /* top buttons start */
+ div.button-layout {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+.button-layout div.nav-button{
+    width: 150px;
+    
+    height: 37px;
+    line-height: 37px;
+    color: white;
+    background-color: #37D563;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 800;
+}
+.button-layout i {
+    padding: 0 50px 0 150px;
+    position: relative;
+    top: 7px;
+    color: white;
+}
+  /* top buttons ends */
+
+  /* menu start */
+  div.tabs {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    color: #37D563;
+    align-items: center;
+    justify-content: space-around;
+    border: solid #37D563 1.5px;
+    border-right: solid #37D563 1.5px;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    clear: both;
+  }
+  div#tab-1 {
+    margin-top: 50px;
+    border-top: solid #37D563 1.5px;
+  }
+  h1 {
+    clear: both;
+    position: relative;
+    top: 55px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  span {
+    color: #37D563;
+  }

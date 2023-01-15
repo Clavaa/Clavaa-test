@@ -1,0 +1,552 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  color: white;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+div#image {
+  width: 100%;
+  height: 630px;
+  margin: 0;
+  position: relative;
+  vertical-align: bottom;
+  line-height: 0%;
+  
+  
+}
+#image img {
+  position: absolute;
+  right: 0px;
+  height: 630px;
+  overflow: hidden;
+  margin: 0;
+  display: block;
+  
+  line-height: 0%;
+  
+  
+}
+h1.text1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 0;
+}
+#bottom-frame {
+  position: sticky;
+  bottom: 0;
+  height: 75px;
+  background-color: #191d41;
+  width: 100%;
+  
+}
+div.button-flex {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+#button-in-bottom-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: #48b223;
+  height: 49px;
+  width: 183px;
+  border-radius: 30px;
+ 
+}
+div.tab-flex {
+ position: absolute;
+ left: 82%;
+  bottom: 21px;
+  
+  padding-right: 8px;
+}
+div.tab {
+  display: flex;
+  flex-direction: column;
+  height: 33px;
+  justify-content: space-between;
+  
+}
+div.tab-part {
+  background-color: white;
+  width: 40px;
+  height: 5px;
+}
+
+div#clavaa {
+  height: 64px;
+  width: 230px;
+  border-radius: 25px;
+  background-color: rgba(67, 66, 73, 0.5);
+  margin: auto;
+  position: absolute;
+  top: 55px;
+  margin-top: 0;
+  left: calc(100% / 2 - 230px /2);
+}
+#clavaa h1 {
+  text-align: center;
+  line-height: 64px;
+  color: #48b223;
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  bottom: 25px;
+}
+div#under-image {
+  width: 100%;
+  opacity: 90%;
+  background-color: #434249;
+  background-blend-mode: darken;
+}
+
+#under-image h1 {
+  padding: 35px 20px 0 20px;
+  padding-bottom: 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+#under-image span {
+  color: #48b223;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 45px;
+}
+
+#under-image p {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding: 0 15px 0 15px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+div#why {
+  width: 100%;
+  background-color: #434249;
+  background-blend-mode: darken;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#why img {
+  height: 62px;
+}
+
+h2.why {
+  font-family: "Secular One";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  padding-right: 10px;
+  text-align: right;
+  margin: 0;
+  width: 250px;
+}
+#why h1 {
+  font-family: "Secular One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0;
+  padding: 10% 55% 10% 10%;
+  text-align: center;
+}
+@media only screen and (min-width: 730px){
+  h2.why{
+    font-size: 50px;
+    line-height: 50px;
+    width: 500px;
+    padding-bottom: 100px;
+  }
+  #why h1 {
+    font-size: 100px;
+  }
+  #why img {
+    height: 130px;
+    padding-right: 10px-;
+
+  }
+  div.positioning-for-big {
+    display: flex;
+    background-color: rgba(25, 29, 65, 0.9);
+    padding: 30px;
+    align-items: center;
+  }
+  div.four-tabs-wording {
+    position: relative;
+    bottom: 90px;
+    padding: 0;
+   
+  }
+}
+
+.why span {
+  font-family: "Secular One";
+  font-size: 50px;
+  line-height: 30px;
+  color: #37d563;
+}
+div.why-points {
+  display: flex;
+  gap: 9%;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+div#one {
+  display: flex;
+  gap: 9%;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+div#two {
+  display: flex;
+  gap: 9%;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+div#three {
+  display: flex;
+  gap: 9%;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+div#four {
+  display: flex;
+  gap: 9%;
+  justify-content: center;
+  padding-bottom: 40px;
+  flex-grow: 0;
+}
+div#num-02, div#num-03, div#num-04 {
+  display: none;
+}
+div.four-tabs {
+  width: 100%;
+  background-color: rgba(25, 29, 65, 0.9);
+}
+
+div.four-tabs-wording {
+  text-transform: uppercase;
+  padding: 10% 10% 0 10%;
+  font-family: "Secular One";
+  margin: 0;
+}
+.four-tabs h1 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.four-tabs img {
+  height: 54px;
+  width: 54px;
+}
+.four-tabs h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.four-tabs p {
+  left: 17px;
+  top: 350px;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+div.pic-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+img.pic-5{
+  height: 100%;
+  width: 100%;
+  display: block;
+
+}
+div.phone-pic-container {
+  margin: 0;
+  margin: 0px;
+  left: 5px;
+  top: 400px;
+  width: 350px;
+  height: 416px;
+  justify-self: center;
+  align-self: center;
+  padding: 30px 0 70px 0;
+}
+div#second-last {
+  background-color: rgba(49, 52, 84, 0.95);
+  width: 100%;
+}
+
+div #question {
+  padding-top: 100px;
+  margin: auto;
+  width: 280px;
+  text-align: center;
+  font-family: "Secular One";
+  font-size: 45px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+div #features {
+  position: relative;
+  width: 228px;
+  height: 100px;
+  left: calc(100% / 2 - 228px / 2);
+  margin: 30px 0 30px 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+#features h2 {
+  font-family: "Secular One";
+  font-size: 17px;
+  line-height: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 12.5px 13px;
+}
+div #tab-01 {
+  background: #434249;
+}
+div #tab-02 {
+  background: #b5acac;
+}
+div #tab-03 {
+  background: #274e32;
+}
+div.tabs {
+  width: 310px;
+  height: 420px;
+  margin: 0 30px 30px 30px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  background-blend-mode: darken;
+  mix-blend-mode: normal;
+  
+}
+
+.tabs {
+  font-family: "Inter";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+div #flex-tabs {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+div.tab-content-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tabs h1 {
+  font-size: 26px;
+}
+.tabs p {
+  width: 225px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  margin-top: -7px;
+}
+
+div.learn-more {
+  font-size: 12px;
+  position: relative;
+  bottom: 5px;
+}
+
+#tab-01 h5 {
+  font-size: 10px;
+  color: #37d563;
+}
+#tab-01 span {
+  font-size: 20px;
+  line-height: 24px;
+  color: #37d563;
+}
+
+#tab-01 img {
+  height: 126px;
+  width: 126px;
+  margin-top: -12px;
+}
+
+#tab-02 img {
+  height: 120px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+#tab-03 img {
+  height: 200px;
+  width: 217px;
+  margin-top: -25px;
+}
+
+.faqs h1 {
+  width: 227px;
+  margin: auto;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0 30px 0;
+}
+.faqs div h6 {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  line-height: 55px;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+}
+div.questions {
+ 
+  border-bottom: 2px solid black;
+  width: 85%;
+  margin: auto;
+  overflow:hidden;
+  
+}
+
+.questions p {
+  display: none;
+  color: black;
+  transition: opacity 1s;
+  text-align: center;
+  font-weight: 500;
+}
+
+div#faqs {
+  width: 100%;
+}
+.faqs h1,
+.faqs h6,
+.questions i {
+  color: black;
+}
+.questions i {
+  position: relative;
+  left: 20px;
+  
+}
+
+.legal h1,
+.legal p {
+  color: black;
+}
+.legal p {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0 100px 0;
+  
+}
+
+@media only screen and (min-width: 730px){
+  h2.why{
+    font-size: 50px;
+    line-height: 50px;
+    width: 500px;
+    padding-bottom: 100px;
+  }
+  #why h1 {
+    font-size: 100px;
+  }
+  #why img {
+    height: 130px;
+    padding-right: 10px-;
+
+  }
+  div.positioning-for-big {
+    display: flex;
+    background-color: rgba(25, 29, 65, 0.9);
+    padding: 30px;
+    align-items: center;
+  }
+  div.four-tabs-wording {
+    position: relative;
+    bottom: 90px;
+    padding-right: 0;
+   
+  }
+  
+  .four-tabs-wording h1{
+     font-size: 50px;
+     padding-bottom: 40px;
+     line-height: 50px;
+  }
+  .four-tabs-wording h2 {
+    font-size: 30px;
+  }
+  .four-tabs-wording p {
+    font-size: 18px;
+
+  }
+  .pics img {
+      height: 70px;
+      width: 70px;
+  }
+  
+}
+@media only screen and (min-width: 1100px){
+  div.phone-pic-container {
+   padding-right: 180px;
+   line-height: 50px;
+    
+    
+  }
+  div#under-image {
+    background-color: transparent;
+    position: absolute;
+    top: 24%;
+    max-width: 900px;
+    width: 45%;
+    left: 12%;
+    
+  }
+    
+   
+}

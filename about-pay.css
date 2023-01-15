@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  background-color:rgba(25, 29, 65, 0.8);
+  padding-bottom: 130px;
+  
+}
+a {
+  text-decoration: none;
+}
+/*top heading begins */
+div#fixed-top {
+  position: fixed;
+  top: 0;
+  height: 75px;
+  width: 100%;
+  background-color: #191d41;
+  z-index: 1;
+}
+#fixed-top i {
+  color: white;
+}
+#fixed-top a {
+  text-decoration: none;
+  font-size: 11px;
+}
+#fixed-top i {
+  position: absolute;
+  left: 30px;
+  bottom: 32.5px;
+  height: 10px;
+}
+div.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+}
+div.nav-layout {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+div.nav-button:hover {
+    background-color: #37D563;
+}
+div.nav-button1 {
+  background-color: #37D563;
+}
+/*top heading ends*/
+
+/*bottom heading begins*/
+
+div#fixed-bottom {
+  position: fixed;
+  background-color: #191d41;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 4;
+}
+div.tab-flex {
+  position: absolute;
+  left: 82%;
+  bottom: 21px;
+
+  padding-right: 8px;
+}
+div.tab {
+  display: flex;
+  flex-direction: column;
+  height: 33px;
+  justify-content: space-between;
+}
+div.tab-part {
+  background-color: white;
+  width: 40px;
+  height: 5px;
+}
+div#button-flex {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+#button-in-bottom-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #48b223;
+  height: 49px;
+  width: 183px;
+  border-radius: 40px;
+}
+h1#fixed-bottom-text {
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+}
+/*bottom heading ends*/
+
+/*text heading heading begins*/
+h1#heading {
+    padding-top: 120px;
+    font-weight: 800;
+    color: #37D563;
+    font-size: 40px;
+    text-align: center;
+}
+/*text heading heading ends*/
+
+/*picture heading begins*/
+#pic-heading img {
+    height: 235px;
+    width: 235px;
+}
+div#pic-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pic-heading h6 {
+    line-height: 0;
+    margin: 60px 0 8px 0;
+    color: #37D563;
+}
+/*picture heading ends*/
+
+/*reimagined tabs starts*/
+
+div#reimagined-tab {
+    margin: 140px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    max-width: 500px;
+    text-align: center;
+    background-color: #191D41;
+    border-radius: 20px;
+    
+}
+#reimagined-tab p , #reimagined-tab h2 {
+    color: white;
+    width: 90%;
+}
+#reimagined-tab p {
+    padding-bottom: 12px;
+}
+#reimagined-tab h2 {
+    padding-top: 5px;
+    margin-bottom: 0;
+    color: #37D563;
+}
+/*reimagined tabs ends*/
+
+/*how to tab starts*/
+div#how-to-tab {
+    width: 95%;
+    max-width: 800px;
+    background-color: #191D41;
+    margin: 40px auto 0 auto;
+    border-radius: 20px;
+}
+#how-to-tab img {
+  width: 100%;
+    max-width: 318px;
+    height: 235px;
+   padding-left: calc(100% - 318px);
+   
+}
+#how-to-tab h1 {
+    color: #37D563;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 30px;
+}
+#how-to-tab span {
+    color: white;
+}
+#words-in-photo {
+    position: relative;
+}
+#how-to-tab h4 {
+    text-align: left;
+    color: white;
+    width: 165px;
+    position: absolute;
+    bottom: 90px;
+    right: 10%; 
+}
+/*how to tab ends*/
+
+/*scrolling facts starts*/
+
+div.moving-container {
+  display: flex;
+  flex-shrink: 0;
+  overflow: scroll;
+  gap: 30px;
+  padding: 0 20px 0 20px;
+}
+div.moving-container::-webkit-scrollbar {
+  display: none;
+}
+
+h6#scrolling-facts-heading  {
+    padding-top: 110px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+}
+.fa-solid {
+    color: #37D563;
+}
+div.moving-info {
+  width: 70%;
+  min-width: 350px;
+   max-width: 600px;
+    height: 350px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    mix-blend-mode: normal;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 25px 15px 25px;
+    position: relative;
+}
+.moving-info h2 {
+    color: #37D563;
+    text-transform: uppercase;
+}
+.moving-info p {
+    color: white;
+    text-transform:capitalize;
+}
+div.learn-more-button {
+    height: 34px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    position: absolute;
+    bottom: 15px;
+    left: calc(100%/2 - 100px/2);
+}
+.learn-more-button h5 {
+    color: #37D563;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 34px;
+    font-weight: 800;
+    font-size: 13px;
+    position: relative;
+    bottom: 22px;
+}
+
+/*scrolling facts ends*/
+
+/*help center starts*/
+h1#help-center-text {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+div#help-center-button {
+    height: 34px;
+    width: 140px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    border-radius: 30px;
+}
+#help-center-button h5 {
+    text-align: center;
+    line-height: 34px;
+    color: #37D563;
+    font-size: 13px;
+    font-weight: 800;
+}
